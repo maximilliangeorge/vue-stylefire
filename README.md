@@ -7,7 +7,7 @@ This Vue plugin makes it easy to create stylers in VueJS via a simple directive.
 ```
 
  <template>
-  <div v-styler="myDiv" />
+  <div v-styler:myDiv />
  </template>
 
 <script>
