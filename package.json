@@ -1,0 +1,35 @@
+{
+  "name": "vue-stylefire",
+  "version": "0.0.2",
+  "description": "Performant, declarative stylers for VueJS",
+  "main": "./index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximilliangeorge/vue-stylefire.git"
+  },
+  "keywords": [
+    "vue-stylefire",
+    "vue-popmotion",
+    "stylefire",
+    "popmotion",
+    "popmotion",
+    "for",
+    "vue",
+    "animations",
+    "for",
+    "vue"
+  ],
+  "author": "Maximillian George <hi@maximilliangeorge.com> (https://maximilliangeorge.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maximilliangeorge/vue-stylefire/issues"
+  },
+  "homepage": "https://github.com/maximilliangeorge/vue-stylefire#readme",
+  "dependencies": {
+    "core-js": "^3.8.1",
+    "stylefire": "^7.0.3"
+  }
+}
