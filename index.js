@@ -1,7 +1,7 @@
 import 'core-js'
 import styler from 'stylefire'
 
-const VuePopmotion = {
+const VueStylefire = {
 	install(Vue) {
 
 		Vue.directive('styler', {
@@ -25,4 +25,4 @@ const VuePopmotion = {
 	}
 }
 
-export default VuePopmotion
+export default VueStylefire
