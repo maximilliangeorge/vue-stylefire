@@ -6,6 +6,11 @@ This Vue plugin makes it easy to create stylers in VueJS via a simple directive.
 
 ```
 
+ import VueStylefire from 'vue-stylefire'
+ Vue.use(VueStylefire)
+
+ // ...
+
  <template>
   <div v-styler:myDiv />
  </template>
