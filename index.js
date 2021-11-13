@@ -19,7 +19,7 @@ const VueStylefire = {
 	  })
 
 		if (typeof window !== 'undefined' && window.Vue) {
-			window.Vue.use(VuePopmotion)
+			window.Vue.use(VueStylefire)
 		}
 
 	}
