@@ -1,6 +1,7 @@
 {
   "name": "vue-stylefire",
-  "version": "0.0.2",
+  "version": "0.0.3",
+  "type": "module",
   "description": "Performant, declarative stylers for VueJS",
   "main": "./index.js",
   "scripts": {

@@ -10,6 +10,7 @@ const VueStylefire = {
 				const { arg } = binding
 
 				if (!vnode.context.$stylers) {
+					console.log(vnode)
 					vnode.context.$stylers = {}
 				}
 
@@ -18,9 +19,9 @@ const VueStylefire = {
 	    }
 	  })
 
-		if (typeof window !== 'undefined' && window.Vue) {
-			window.Vue.use(VueStylefire)
-		}
+		// if (typeof window !== 'undefined' && window.Vue) {
+		// 	window.Vue.use(VueStylefire)
+		// }
 
 	}
 }
