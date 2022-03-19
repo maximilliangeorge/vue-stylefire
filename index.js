@@ -1,4 +1,3 @@
-import 'core-js'
 import styler from 'stylefire'
 
 const VueStylefire = {
@@ -10,7 +9,6 @@ const VueStylefire = {
 				const { arg } = binding
 
 				if (!vnode.context.$stylers) {
-					console.log(vnode)
 					vnode.context.$stylers = {}
 				}
 
